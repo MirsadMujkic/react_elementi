@@ -1,6 +1,6 @@
 import React from 'react';
 
-//const NiceButton = () => {
+const Create = () => {
   const buttonStyle = {
     backgroundColor: '#4CAF50', /* Green */
     border: 'none',
@@ -17,7 +17,7 @@ import React from 'react';
     transition: '0.3s',
   };
 
-  return <button style={buttonStyle}>Nice Button</button>;
+  return <button style={buttonStyle}>Create</button>;
 };
 
-//export default NiceButton;
+export default Create;
